@@ -1323,3 +1323,7 @@ Remove-AzResourceGroup -Name <resource-group-name>
 - [Quickstart: Create Application Gateway for Containers - Bring your own deployment](https://learn.microsoft.com/azure/application-gateway/for-containers/quickstart-create-application-gateway-for-containers-byo-deployment?tabs=existing-vnet-subnet)
 - [Quickstart: Create Application Gateway for Containers managed by ALB Controller](https://learn.microsoft.com/azure/application-gateway/for-containers/quickstart-create-application-gateway-for-containers-managed-by-alb-controller?tabs=new-subnet-aks-vnet)
 - [Advanced load balancing scenarios with the new Azure Application Gateway for Containers](https://denniszielke.medium.com/advanced-load-balancing-scenarios-with-the-new-azure-application-gateway-for-containers-dd35c4de64df)
+- [Application Gateway for Containers: a not-so-gentle intro (1)](https://blog.cloudtrooper.net/2025/02/28/application-gateway-for-containers-a-not-so-gentle-intro-1/)
+- [Application Gateway for Containers: a not-so-gentle intro (2)](https://blog.cloudtrooper.net/2025/03/10/application-gateway-for-containers-a-not-so-gentle-intro-2/)
+- [Application Gateway for Containers: a not-so-gentle intro (3)](https://blog.cloudtrooper.net/2025/03/14/application-gateway-for-containers-a-not-so-gentle-intro-3/)
+- [Application Gateway for Containers: a not-so-gentle intro (4)](https://blog.cloudtrooper.net/2025/04/02/application-gateway-for-containers-a-not-so-gentle-intro-4/)
