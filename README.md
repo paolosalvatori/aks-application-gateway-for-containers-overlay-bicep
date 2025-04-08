@@ -2,7 +2,17 @@
 
 The [Application Gateway for Containers](https://learn.microsoft.com/azure/application-gateway/for-containers/overview) is a next-generation, application layer that offers load balancing and dynamic traffic management for applications running in a Kubernetes cluster. As part of Azure's Application Load Balancing portfolio, this innovative product provides an enhanced experience for developers and administrators. The Application Gateway for Containers represents the evolution of the [Application Gateway Ingress Controller (AGIC)](https://learn.microsoft.com/azure/application-gateway/ingress-controller-overview) and enables Azure Kubernetes Service (AKS) customers to leverage Azure's native Application Gateway load balancer.
 
-In this article, you will learn how to deploy an [Azure Kubernetes Service(AKS)](https://docs.microsoft.com/azure/aks/intro-kubernetes) cluster, configured to use [Azure CNI Overlay](https://learn.microsoft.com/azure/aks/azure-cni-overlay?tabs=kubectl), and [Application Gateway for Containers](https://learn.microsoft.com/azure/application-gateway/for-containers/overview) in a fully-automated fashion, using either a bring your own (BYO) or managed by ALB deployment. In addition, you will learn how to expose a workload using the [Gateway API](https://gateway-api.sigs.k8s.io/) via the [Application Gateway for Containers](https://learn.microsoft.com/azure/application-gateway/for-containers/overview) and how to configure [cert-manager](https://cert-manager.io/docs/usage/gateway/) to generate a TLS certificate for the Gateway resource.
+In this article, you will learn how to deploy an [Azure Kubernetes Service (AKS)](https://docs.microsoft.com/azure/aks/intro-kubernetes) cluster configured with [Azure CNI Overlay](https://learn.microsoft.com/azure/aks/azure-cni-overlay?tabs=kubectl) and [Application Gateway for Containers](https://learn.microsoft.com/azure/application-gateway/for-containers/overview) using a fully automated approach with Bicep.
+
+The sample supports two deployment strategies for the Application Gateway for Containers:
+
+- **Bring Your Own (BYO)**: You manage the Application Gateway for Containers resource and its sub-resources.
+- **Managed by ALB**: The Application Load Balancer (ALB) Controller manages the lifecycle of the Application Gateway for Containers.
+
+Additionally, this article demonstrates how to:
+
+- Expose a workload using the [Gateway API](https://gateway-api.sigs.k8s.io/) via the [Application Gateway for Containers](https://learn.microsoft.com/azure/application-gateway/for-containers/overview).
+- Configure [cert-manager](https://cert-manager.io/docs/usage/gateway/) to automatically generate a TLS certificate for the Gateway resource.
 
 ## Prerequisites
 
