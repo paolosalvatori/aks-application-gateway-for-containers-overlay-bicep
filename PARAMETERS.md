@@ -2,7 +2,6 @@
 
 This is the full list of the parameters.
 
-```markdown
 | Name | Type | Description |
 |------|------|-------------|
 | `prefix` | `string` | Specifies the name prefix for all the Azure resources. |
@@ -256,4 +255,3 @@ This is the full list of the parameters.
 | `userObjectId` | `string` | Specifies the object id of a Microsoft Entra ID user. |
 | `dnsZoneName` | `string` | Specifies the name of an existing public DNS zone. |
 | `dnsZoneResourceGroupName` | `string` | Specifies the name of the resource group which contains the public DNS zone. |
-```
