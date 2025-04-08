@@ -1,6 +1,6 @@
 # Parameters
 
-This is the full list of the parameters.
+This is the full list of the parameters of the `main.bicep` template.
 
 | Name | Type | Description |
 |------|------|-------------|
